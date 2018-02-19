@@ -8,12 +8,74 @@
 
 /* Begin PBXBuildFile section */
 		79D523B52036B7190025FED0 /* RestGerrit.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D523B32036B7190025FED0 /* RestGerrit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79D523CA2036C0D90025FED0 /* RestGerritTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D523C92036C0D90025FED0 /* RestGerritTests.swift */; };
+		79D523CC2036C0D90025FED0 /* RestGerrit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D523B02036B7190025FED0 /* RestGerrit.framework */; };
+		79D52432203B00710025FED0 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D52422203AFFCB0025FED0 /* Account.swift */; };
+		79D52433203B00710025FED0 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D52423203AFFCB0025FED0 /* Endpoint.swift */; };
+		79D52434203B00740025FED0 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D52420203AFFCB0025FED0 /* Project.swift */; };
+		79D52435203B007E0025FED0 /* Plugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D5241E203AFFCB0025FED0 /* Plugin.swift */; };
+		79D52436203B00810025FED0 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D5241B203AFFCB0025FED0 /* Actions.swift */; };
+		79D52437203B00830025FED0 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D5241A203AFFCB0025FED0 /* Comments.swift */; };
+		79D52438203B00850025FED0 /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D52419203AFFCB0025FED0 /* Merge.swift */; };
+		79D52439203B00870025FED0 /* Changes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D52418203AFFCB0025FED0 /* Changes.swift */; };
+		79D5243A203B00890025FED0 /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D52417203AFFCB0025FED0 /* Commit.swift */; };
+		79D5243B203B008B0025FED0 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D52416203AFFCB0025FED0 /* Info.swift */; };
+		79D5243C203B008D0025FED0 /* Diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D52415203AFFCB0025FED0 /* Diff.swift */; };
+		79D5243D203B00900025FED0 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D52414203AFFCB0025FED0 /* Review.swift */; };
+		79D5243E203B00910025FED0 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D52412203AFFCB0025FED0 /* Group.swift */; };
+		79D5243F203B00930025FED0 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D52410203AFFCB0025FED0 /* Config.swift */; };
+		79D52440203B00960025FED0 /* Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D5240D203AFFCB0025FED0 /* Access.swift */; };
+		79D52441203B00980025FED0 /* Documentatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D5240B203AFFCB0025FED0 /* Documentatio.swift */; };
+		79D52442203B009B0025FED0 /* Param.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D52408203AFFCB0025FED0 /* Param.swift */; };
+		79D52443203B009E0025FED0 /* Params.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D52406203AFFCB0025FED0 /* Params.swift */; };
+		79D52444203B00A10025FED0 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D52405203AFFCB0025FED0 /* Endpoints.swift */; };
+		79D52447203B026B0025FED0 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D52446203B026B0025FED0 /* Endpoint.swift */; };
+		79D5244A203B02810025FED0 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D52449203B02810025FED0 /* Endpoint.swift */; };
+		79D5244C203B03080025FED0 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D5244B203B03080025FED0 /* Utility.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79D523CD2036C0D90025FED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79D523A72036B7190025FED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79D523AF2036B7190025FED0;
+			remoteInfo = RestGerrit;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		79D523B02036B7190025FED0 /* RestGerrit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RestGerrit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D523B32036B7190025FED0 /* RestGerrit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestGerrit.h; sourceTree = "<group>"; };
-		79D523B42036B7190025FED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D523C72036C0D90025FED0 /* RestGerritTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestGerritTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D523C92036C0D90025FED0 /* RestGerritTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestGerritTests.swift; sourceTree = "<group>"; };
+		79D523CB2036C0D90025FED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D52400203AFC860025FED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D52405203AFFCB0025FED0 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		79D52406203AFFCB0025FED0 /* Params.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Params.swift; sourceTree = "<group>"; };
+		79D52408203AFFCB0025FED0 /* Param.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Param.swift; sourceTree = "<group>"; };
+		79D5240B203AFFCB0025FED0 /* Documentatio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documentatio.swift; sourceTree = "<group>"; };
+		79D5240D203AFFCB0025FED0 /* Access.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Access.swift; sourceTree = "<group>"; };
+		79D5240E203AFFCB0025FED0 /* [DI]Categorized By Endpoint */ = {isa = PBXFileReference; lastKnownFileType = text; path = "[DI]Categorized By Endpoint"; sourceTree = "<group>"; };
+		79D52410203AFFCB0025FED0 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		79D52412203AFFCB0025FED0 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		79D52414203AFFCB0025FED0 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		79D52415203AFFCB0025FED0 /* Diff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diff.swift; sourceTree = "<group>"; };
+		79D52416203AFFCB0025FED0 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		79D52417203AFFCB0025FED0 /* Commit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commit.swift; sourceTree = "<group>"; };
+		79D52418203AFFCB0025FED0 /* Changes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Changes.swift; sourceTree = "<group>"; };
+		79D52419203AFFCB0025FED0 /* Merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge.swift; sourceTree = "<group>"; };
+		79D5241A203AFFCB0025FED0 /* Comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
+		79D5241B203AFFCB0025FED0 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		79D5241C203AFFCB0025FED0 /* State.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = State.md; sourceTree = "<group>"; };
+		79D5241E203AFFCB0025FED0 /* Plugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plugin.swift; sourceTree = "<group>"; };
+		79D52420203AFFCB0025FED0 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		79D52422203AFFCB0025FED0 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		79D52423203AFFCB0025FED0 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		79D52446203B026B0025FED0 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		79D52449203B02810025FED0 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		79D5244B203B03080025FED0 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		F2CD6F3F800120B62A16673B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,13 +86,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		79D523C42036C0D90025FED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D523CC2036C0D90025FED0 /* RestGerrit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		79D523A62036B7190025FED0 = {
 			isa = PBXGroup;
 			children = (
+				79D52402203AFFB00025FED0 /* Sources */,
 				79D523B22036B7190025FED0 /* RestGerrit */,
+				79D523C82036C0D90025FED0 /* RestGerritTests */,
 				79D523B12036B7190025FED0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				79D523B02036B7190025FED0 /* RestGerrit.framework */,
+				79D523C72036C0D90025FED0 /* RestGerritTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +119,163 @@
 		79D523B22036B7190025FED0 /* RestGerrit */ = {
 			isa = PBXGroup;
 			children = (
+				79D52400203AFC860025FED0 /* Info.plist */,
 				79D523B32036B7190025FED0 /* RestGerrit.h */,
-				79D523B42036B7190025FED0 /* Info.plist */,
+				F2CD6F3F800120B62A16673B /* README.md */,
 			);
 			path = RestGerrit;
+			sourceTree = "<group>";
+		};
+		79D523C82036C0D90025FED0 /* RestGerritTests */ = {
+			isa = PBXGroup;
+			children = (
+				79D523C92036C0D90025FED0 /* RestGerritTests.swift */,
+				79D523CB2036C0D90025FED0 /* Info.plist */,
+			);
+			path = RestGerritTests;
+			sourceTree = "<group>";
+		};
+		79D52402203AFFB00025FED0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				79D52403203AFFCB0025FED0 /* RestGerrit */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		79D52403203AFFCB0025FED0 /* RestGerrit */ = {
+			isa = PBXGroup;
+			children = (
+				79D52404203AFFCB0025FED0 /* Endpoints */,
+				79D52407203AFFCB0025FED0 /* Protocols */,
+			);
+			path = RestGerrit;
+			sourceTree = "<group>";
+		};
+		79D52404203AFFCB0025FED0 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				79D52448203B02750025FED0 /* Access */,
+				79D52445203B022B0025FED0 /* Changes */,
+				79D52405203AFFCB0025FED0 /* Endpoints.swift */,
+				79D5244B203B03080025FED0 /* Utility.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		79D52407203AFFCB0025FED0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				79D52408203AFFCB0025FED0 /* Param.swift */,
+				79D52409203AFFCB0025FED0 /* Entities */,
+				79D52423203AFFCB0025FED0 /* Endpoint.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		79D52409203AFFCB0025FED0 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				79D5240A203AFFCB0025FED0 /* Documentation */,
+				79D5240C203AFFCB0025FED0 /* Access */,
+				79D5240E203AFFCB0025FED0 /* [DI]Categorized By Endpoint */,
+				79D5240F203AFFCB0025FED0 /* Config */,
+				79D52411203AFFCB0025FED0 /* Group */,
+				79D52413203AFFCB0025FED0 /* Changes */,
+				79D5241C203AFFCB0025FED0 /* State.md */,
+				79D5241D203AFFCB0025FED0 /* Plugin */,
+				79D5241F203AFFCB0025FED0 /* Project */,
+				79D52421203AFFCB0025FED0 /* Account */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		79D5240A203AFFCB0025FED0 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				79D5240B203AFFCB0025FED0 /* Documentatio.swift */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+		79D5240C203AFFCB0025FED0 /* Access */ = {
+			isa = PBXGroup;
+			children = (
+				79D5240D203AFFCB0025FED0 /* Access.swift */,
+			);
+			path = Access;
+			sourceTree = "<group>";
+		};
+		79D5240F203AFFCB0025FED0 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				79D52410203AFFCB0025FED0 /* Config.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		79D52411203AFFCB0025FED0 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				79D52412203AFFCB0025FED0 /* Group.swift */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		79D52413203AFFCB0025FED0 /* Changes */ = {
+			isa = PBXGroup;
+			children = (
+				79D52414203AFFCB0025FED0 /* Review.swift */,
+				79D52415203AFFCB0025FED0 /* Diff.swift */,
+				79D52416203AFFCB0025FED0 /* Info.swift */,
+				79D52417203AFFCB0025FED0 /* Commit.swift */,
+				79D52418203AFFCB0025FED0 /* Changes.swift */,
+				79D52419203AFFCB0025FED0 /* Merge.swift */,
+				79D5241A203AFFCB0025FED0 /* Comments.swift */,
+				79D5241B203AFFCB0025FED0 /* Actions.swift */,
+			);
+			path = Changes;
+			sourceTree = "<group>";
+		};
+		79D5241D203AFFCB0025FED0 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				79D5241E203AFFCB0025FED0 /* Plugin.swift */,
+			);
+			path = Plugin;
+			sourceTree = "<group>";
+		};
+		79D5241F203AFFCB0025FED0 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				79D52420203AFFCB0025FED0 /* Project.swift */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		79D52421203AFFCB0025FED0 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				79D52422203AFFCB0025FED0 /* Account.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		79D52445203B022B0025FED0 /* Changes */ = {
+			isa = PBXGroup;
+			children = (
+				79D52446203B026B0025FED0 /* Endpoint.swift */,
+				79D52406203AFFCB0025FED0 /* Params.swift */,
+			);
+			path = Changes;
+			sourceTree = "<group>";
+		};
+		79D52448203B02750025FED0 /* Access */ = {
+			isa = PBXGroup;
+			children = (
+				79D52449203B02810025FED0 /* Endpoint.swift */,
+			);
+			path = Access;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,16 +310,40 @@
 			productReference = 79D523B02036B7190025FED0 /* RestGerrit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		79D523C62036C0D90025FED0 /* RestGerritTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D523D12036C0D90025FED0 /* Build configuration list for PBXNativeTarget "RestGerritTests" */;
+			buildPhases = (
+				79D523C32036C0D90025FED0 /* Sources */,
+				79D523C42036C0D90025FED0 /* Frameworks */,
+				79D523C52036C0D90025FED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79D523CE2036C0D90025FED0 /* PBXTargetDependency */,
+			);
+			name = RestGerritTests;
+			productName = RestGerritTests;
+			productReference = 79D523C72036C0D90025FED0 /* RestGerritTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		79D523A72036B7190025FED0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Chatboy.xyz;
 				TargetAttributes = {
 					79D523AF2036B7190025FED0 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					79D523C62036C0D90025FED0 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -112,12 +362,20 @@
 			projectRoot = "";
 			targets = (
 				79D523AF2036B7190025FED0 /* RestGerrit */,
+				79D523C62036C0D90025FED0 /* RestGerritTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		79D523AE2036B7190025FED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D523C52036C0D90025FED0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -131,10 +389,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79D52444203B00A10025FED0 /* Endpoints.swift in Sources */,
+				79D52443203B009E0025FED0 /* Params.swift in Sources */,
+				79D52442203B009B0025FED0 /* Param.swift in Sources */,
+				79D52441203B00980025FED0 /* Documentatio.swift in Sources */,
+				79D52440203B00960025FED0 /* Access.swift in Sources */,
+				79D5243F203B00930025FED0 /* Config.swift in Sources */,
+				79D5243E203B00910025FED0 /* Group.swift in Sources */,
+				79D5244A203B02810025FED0 /* Endpoint.swift in Sources */,
+				79D5243D203B00900025FED0 /* Review.swift in Sources */,
+				79D5243C203B008D0025FED0 /* Diff.swift in Sources */,
+				79D5243B203B008B0025FED0 /* Info.swift in Sources */,
+				79D5243A203B00890025FED0 /* Commit.swift in Sources */,
+				79D52439203B00870025FED0 /* Changes.swift in Sources */,
+				79D52438203B00850025FED0 /* Merge.swift in Sources */,
+				79D5244C203B03080025FED0 /* Utility.swift in Sources */,
+				79D52437203B00830025FED0 /* Comments.swift in Sources */,
+				79D52447203B026B0025FED0 /* Endpoint.swift in Sources */,
+				79D52436203B00810025FED0 /* Actions.swift in Sources */,
+				79D52435203B007E0025FED0 /* Plugin.swift in Sources */,
+				79D52434203B00740025FED0 /* Project.swift in Sources */,
+				79D52432203B00710025FED0 /* Account.swift in Sources */,
+				79D52433203B00710025FED0 /* Endpoint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D523C32036C0D90025FED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D523CA2036C0D90025FED0 /* RestGerritTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79D523CE2036C0D90025FED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79D523AF2036B7190025FED0 /* RestGerrit */;
+			targetProxy = 79D523CD2036C0D90025FED0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		79D523B62036B7190025FED0 /* Debug */ = {
@@ -253,6 +549,29 @@
 		79D523B92036B7190025FED0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RestGerrit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.chatboy.RestGerrit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79D523BA2036B7190025FED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -268,23 +587,31 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Release;
 		};
-		79D523BA2036B7190025FED0 /* Release */ = {
+		79D523CF2036C0D90025FED0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = RestGerrit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = RestGerritTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.chatboy.RestGerrit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.chatboy.RestGerritTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79D523D02036C0D90025FED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RestGerritTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.chatboy.RestGerritTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,6 +634,15 @@
 			buildConfigurations = (
 				79D523B92036B7190025FED0 /* Debug */,
 				79D523BA2036B7190025FED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D523D12036C0D90025FED0 /* Build configuration list for PBXNativeTarget "RestGerritTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D523CF2036C0D90025FED0 /* Debug */,
+				79D523D02036C0D90025FED0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
